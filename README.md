@@ -1,4 +1,4 @@
-# Final Project
+# Final Project (Work in progress)
 ## Face Detection (progress result .gif)
 Download https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
