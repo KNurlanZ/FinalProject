@@ -3,6 +3,11 @@
 Download https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
 Download https://github.com/kurnianggoro/GSOC2017/archive/master.zip
+Also, you should install pip and numpy into the Blender:
+Open Command Prompt as Administrator
+cd "C:\Program Files\Blender Foundation\Blender 2.82\2.82\python\bin"
+python -m pip install --upgrade pip
+python -m pip install opencv-contrib-python numpy
 To realize our project, we will need to detect face features in real time. For this, we are going to use OpenCV library, especially Dlib. This algorithm detects identifiable face features, like eyes, brows, nose, mouth, lips. It creates map of points, which highlight those features. To do this, Dlib has functions get_frontal_face_detector() and shape_predictor(), however predictor needs a pre-trained model, which we have downloaded from the internet, the link shown in the Github. The map could be used to assign controls to facial features. Since our project is focused on real time control, we need to use webcam too. OpenCV also has such function. We have made the gif of our output.
 
 
